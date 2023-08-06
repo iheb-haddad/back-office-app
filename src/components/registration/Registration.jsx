@@ -26,7 +26,7 @@ function Registration(props) {
     };
     const handleConnect = () => {
       // Make the GET request to the server
-      fetch('https://urlsjsonserver.onrender.com/admins')
+      fetch('https://urlsjsonserver-p2nq.onrender.com/admins')
         .then((response) => response.json())
         .then((data) => {
           const user = data.find((item) => item.email === email);
