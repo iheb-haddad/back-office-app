@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
-// import './DocFormSupp.css'
+import './DocFormSupp.css'
 import Select from "react-select";
 function DocFormSupp() {
     const initialValues = {
