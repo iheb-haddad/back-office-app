@@ -1,0 +1,146 @@
+.docFormAjout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 81vh;
+    /* padding: 0px 20%; */
+    background-color: white;
+}
+.entete,.configBox,.buttons{
+    min-width: 700px;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    color: #b0afaf;
+  }
+  .entete h1{
+    font-size: 1.2rem;
+    color: #232323;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+.configBox{
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border:1px dashed  rgb(119, 119, 119);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    max-width: 700px;
+  }
+.configLine{
+    padding: 6px 5%;
+    display: flex;
+    
+    /* border-bottom:1px dashed  rgb(119, 119, 119); */
+    /* align-items: self-start;*/
+  } 
+  .configLine h3{
+    margin-top: 5px;
+    color: #b0afaf;
+    font-size: 1rem;
+    flex: 1;
+  }
+  .configLine input, .configLine .input{
+    flex: 1;
+    border:none;
+    background-color: white;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+  }
+  .configLine .input{
+    display: flex;
+    align-items: center;
+  }
+  .dropDown-menu{
+    flex: 1;
+    border:none;
+  }
+  .configBox select{
+    flex: 1;
+    border:none;
+    background-color: white;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+  }
+  .buttons button{
+    border: none;
+    background-color: #535353;
+    color: rgb(242, 247, 247);
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 80px;
+  }
+  .buttons button:hover{
+    color: #a0a0a0;
+  }
+  .message{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+  }
+  .error{
+    border: 1px solid red;
+  }
+
+
+  @media (max-width: 1050px) {
+    .configBox , .entete , .buttons{
+      max-width: 500px;
+      min-width: 500px;
+    }
+  }
+  @media (max-width: 620px) {
+    .configBox , .entete , .buttons{
+      max-width: 400px;
+      min-width: 400px;
+      font-size: 90%;
+    }
+    .entete h1{
+      font-size: 1rem;
+    }
+    .message{
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 0.9rem;
+    }
+  }
+  @media (max-width: 450px) {
+    .configBox , .entete , .buttons{
+      max-width: 350px;
+      min-width: 350px;
+      font-size: 70%;
+    }
+    .buttons button{
+      height: 30px;
+      width: 60px;
+      font-size: 0.7rem;
+    }
+    .configLine input, .configLine .input, .configBox select{
+      height: 20px;
+    }
+    .entete h1{
+      font-size: 1rem;
+    }
+    .entete{
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+    .configLine{
+      padding: 4px;
+    }
+    .configBox{
+      margin-bottom: 40px;
+    }
+  }      

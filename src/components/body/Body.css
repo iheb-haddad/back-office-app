@@ -1,0 +1,48 @@
+.body{
+    width: 82vw;
+  }
+  .navigation{
+    height: 6vh;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .path{
+    display: flex;
+    align-items: center;
+    color: #9d9d9d;
+  }
+  .path .pathName{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .path .pathName2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+  }  
+  .path .icon::before {
+    content: ">";
+    font-size: 2.5rem;
+  }
+  .path .icon{
+    /* height: 5vh; */
+    font-weight: 100;
+  }
+  .headBody{
+    background-image: linear-gradient(to top, #000000, #424242) ;
+    height: 12vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+   }
+@media (max-width: 850px){
+  .body{
+    width: 100vw;
+  }
+}  

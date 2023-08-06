@@ -1,0 +1,144 @@
+.navbar{
+    width: 20vw;
+    min-width: 300px;
+    background-color: #ececec;
+    height: 100vh;
+    z-index: 9999999; 
+  }
+
+  .userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .userInfo > h3{
+    font-size: 0.9rem;
+    color: #818181;
+  }
+  .username > span{
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+  .userInfo > button{
+    padding: 5px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  button >span{
+    margin-right: 10px;
+  }
+  .navLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #232323;
+    border: 1px solid #ececec;
+    color: #818181;
+  }
+  .navLine .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 22%;
+    border-right: 1px solid #ececec;
+  }
+  .navLine .title{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 100%;
+    width: 78%;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .navLine .title:hover{
+    color: #c2c2c2;
+  } 
+.subLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #ececec;
+    border-bottom: 1px solid white;
+    color: #818181;
+  }
+  .subLine .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 22%;
+    border-right: 1px solid white;
+  }
+  .subLine .title{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 100%;
+    width: 78%;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .subLine .title:hover{
+    color: black;
+  }
+  .blur-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex:1;
+    height: 100vh;
+    min-width: 100vw;
+    backdrop-filter: blur(1rem); /* Adjust the blur radius as needed */
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+    z-index: 9999; 
+  }
+  .head{
+    background-image: linear-gradient(to top, #000000, #424242) ;
+    height: 12vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+   }
+   .title {
+     font-size: 20px;
+     font-weight: bold;
+   }
+   
+   .subtitle {
+     font-size: 16px;
+   }
+   .croix{
+    display: none;
+    justify-content: end;
+    padding: 0 25px 15px 25px;
+  }
+@media (max-width: 850px) {
+  .navbar{
+    width: 40vw;
+    min-width: 350px;
+  }
+  .blur-overlay{
+    display: block;
+  }
+  .navbar .head {
+    height: 19vh;
+  }
+  .croix{
+    display: flex;
+  }
+}   
+ 

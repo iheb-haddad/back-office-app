@@ -1,0 +1,167 @@
+.registration{
+    background-color: #232323;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registrationBox{
+    height: 60vh;
+    width: 60vw;
+    max-width: 600px;
+    min-width: 500px;
+}
+.headBox{
+    background-image: linear-gradient(to top, #000000, #424242) ;
+    height: 25%;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+     font-size: 1.7rem;
+     font-weight: bold;
+}
+   
+.subtitle {
+     font-size: 1.2rem;
+}
+
+.bodyContainer{
+    background-color: #f2f2f2;
+    height: 75%;
+    padding: 10px 15px;
+}
+.bodyBox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px dashed  rgb(119, 119, 119); 
+    padding: 10px 0;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+.inputLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 0; */
+}
+.messageBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.messageBox .marg{
+    flex: 1;
+}
+.messageBox p{
+    flex: 2;
+    margin: 3px 0px 10px 10px;
+    color: red;
+} 
+.inputLine h3{
+    margin-top: 5px;
+    color: #272727;
+    font-size: 0.9rem;
+    flex: 1;
+  }  
+.inputLine input{
+    flex: 2;
+    border:none;
+    background-color: white;
+    height: 35px;
+    padding-left: 20px;
+  }
+.optionsBox{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ } 
+.optionsBox .options{
+    margin-right: 20px;
+    color: #b5b5b5;
+}
+.options h4{
+    margin: 5px;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.options label{
+    font-size: 0.8rem;
+    display: flex;
+}
+.options input{
+    margin: 0;
+    border-color: white;
+    margin-right: 5px;
+} 
+  .optionsBox button{
+    border: none;
+    background-color: #535353;
+    color: rgb(242, 247, 247);
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100px;
+  }
+.optionsBox button:hover{
+    color: #a0a0a0;
+  }
+.bodyBox2{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.bodyBox2 h5{
+    margin: 5px;
+}  
+
+@media (max-width: 550px) {
+    .registrationBox{
+        min-width: 90vw;
+        font-size: 80%;
+        max-height:400px;
+    }
+    .title{
+        font-size: 1.3rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .inputBox{
+        width: 98%;
+    }
+    .inputLine{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .inputLine h3{
+        font-size: 0.7rem;
+    }
+    .inputLine input{
+        height: 25px;
+    }
+    .optionsBox button{
+        width: 80px;
+        height: 30px;
+        font-size: 0.6rem;
+        margin-right: 20px;
+    }
+    .bodyContainer{
+        padding: 10px 0;
+    }
+    .options h4{
+        font-size: 0.7rem;
+    }
+  }
