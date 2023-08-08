@@ -7,16 +7,16 @@
     /* padding: 0px 20%; */
     background-color: white;
 }
-.entete,.configBoxs,.buttonss{
+.entetes,.configBoxs,.buttonss{
     min-width: 700px;
 }
-.entete{
+.entetes{
     display: flex;
     align-items: center;
     color: #b0afaf;
 
   }
-  .entete h1{
+  .entetes h1{
     font-size: 1.2rem;
     color: #232323;
     margin-left: 15px;
@@ -94,18 +94,18 @@
     border: 1px solid red;
   }
   @media (max-width: 1050px) {
-    .configBoxs , .entete , .buttonss{
+    .configBoxs , .entetes , .buttonss{
       max-width: 500px;
       min-width: 500px;
     }
   }
   @media (max-width: 620px) {
-    .configBoxs , .entete , .buttonss{
+    .configBoxs , .entetes , .buttonss{
       max-width: 400px;
       min-width: 400px;
       font-size: 90%;
     }
-    .entete h1{
+    .entetes h1{
       font-size: 1rem;
     }
     .message{
@@ -115,24 +115,24 @@
     }
   }
   @media (max-width: 450px) {
-    .configBoxs , .entete , .buttonss{
+    .configBoxs , .entetes , .buttonss{
       max-width: 350px;
       min-width: 350px;
       font-size: 70%;
     }
     .buttonss button{
       height: 30px;
-      width: 60px;
+      width: 65px;
       font-size: 0.7rem;
     }
     .configLine input, .configLines .input, .configBoxs select{
       height: 20px;
     }
-    .entete h1{
+    .entetes h1{
       font-size: 1rem;
       margin-bottom: 20px;
     }
-    .entete{
+    .entetes{
       margin-top: 60px;
     }
     .configLines{
